@@ -14,7 +14,7 @@ function App() {
           <Link to="/otherpage">Other Page</Link>
         </header>
         <div>
-          Now as a multi-container Docker application in AWS!!!
+          Fib calculator as a multi-container Kubernetes application in GKE!!!
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
         </div>
